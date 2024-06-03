@@ -16,11 +16,11 @@ import { defineProps } from "vue";
 
 const props = defineProps({
   income: {
-    type: Number,
+    type: String,
     required: true,
   },
   expences: {
-    type: Number,
+    type: String,
     required: true,
   },
 });
