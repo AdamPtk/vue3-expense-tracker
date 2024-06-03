@@ -8,7 +8,7 @@ import { defineProps } from "vue";
 
 const props = defineProps({
   total: {
-    type: String,
+    type: Number,
     required: true,
   },
 });
